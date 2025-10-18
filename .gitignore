@@ -190,7 +190,7 @@ results/tmp/
 # ============================================
 # Notebook outputs (some teams clear outputs before committing)
 # Uncomment if you want to clear outputs:
-# **/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
 # *.ipynb
 
 # Note: Most people DO commit notebooks WITH outputs for documentation
