@@ -111,15 +111,13 @@ triageai/
 - **seaborn** — visualisation
 - **TextBlob / NLTK** — sentiment & keyword extraction
 
----
-
-## Roadmap
-
-- [ ] REST API for real-time classification
-- [ ] Experiment with gradient boosting (XGBoost, LightGBM)
-- [ ] Add confidence scores to predictions
-- [ ] Dashboard for support team metrics
-
+<!-- ## Roadmap -->
+<!---->
+<!-- - [ ] REST API for real-time classification -->
+<!-- - [ ] Experiment with gradient boosting (XGBoost, LightGBM) -->
+<!-- - [ ] Add confidence scores to predictions -->
+<!-- - [ ] Dashboard for support team metrics -->
+<!---->
 ---
 
 ## License
