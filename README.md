@@ -108,6 +108,7 @@ triageai/
 - **scikit-learn** — modelling & evaluation
 - **pandas / numpy** — data wrangling
 - **matplotlib** — visualisation
+- **seaborn** — visualisation
 - **TextBlob / NLTK** — sentiment & keyword extraction
 
 ---
