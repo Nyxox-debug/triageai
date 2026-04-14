@@ -27,9 +27,12 @@ It reads incoming support emails and classifies them into four priority tiers: `
 
 ## How It Works
 
-1. **Feature Engineering** — Raw email text is transformed into signals the model can use: subject length, body length, exclamation count, urgent keyword frequency, problem keyword count, and sentiment polarity.
-2. **Class Balancing** — Urgent emails are ~10% of the dataset. Training uses `class_weight='balanced'` to prevent the model from ignoring the minority class.
-3. **Logistic Regression** — Interpretable, fast, and effective. You can see exactly which features drive each prediction.
+1. **Data Exploration** — Analyse the raw email dataset to understand class distribution,
+   spot the class imbalance (~10% urgent), and identify which raw attributes
+   (subject length, body length, word count) are weak signals on their own.
+2. **Feature Engineering** — Transform raw text into meaningful signals: exclamation count,
+   urgent keyword frequency, problem keyword count, and sentiment polarity —
+   the features that actually separate priorities.
 
 ---
 
