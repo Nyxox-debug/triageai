@@ -92,8 +92,7 @@ triageai/
 │   └── train_test_data.pkl
 ├── notebooks
 │   ├── 1-data-exploration.ipynb
-│   ├── 2-feature-engineering.ipynb
-│   └── copy.txt
+│   └── 2-feature-engineering.ipynb
 ├── README.md
 └── requirements.txt
 ```
