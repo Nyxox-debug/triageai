@@ -77,14 +77,28 @@ pip install -r requirements.txt
 
 ```
 triageai/
-├── data/
-│   └── raw/
-│       └── emails.csv          # Raw email dataset
-├── assets/                     # EDA visualisations (auto-generated)
-├── notebooks/                  # Exploratory analysis & model training
-├── src/                        # Source modules (feature engineering, model, etc.)
-├── requirements.txt
-└── README.md
+├── assets
+│   ├── key_features_boxplots.png
+│   ├── priority_distribution.png
+│   ├── text_length_boxplots.png
+│   └── urgency_indicators.png
+├── data
+│   ├── processed
+│   │   ├── emails_with_features.csv
+│   │   └── features_complete.csv
+│   └── raw
+│       └── emails.csv
+├── models
+│   ├── feature_engineering_metadata.json
+│   ├── feature_names.json
+│   ├── tfidf_vectorizer.pkl
+│   └── train_test_data.pkl
+├── notebooks
+│   ├── 1-data-exploration.ipynb
+│   ├── 2-feature-engineering.ipynb
+│   └── copy.txt
+├── README.md
+└── requirements.txt
 ```
 
 ---
