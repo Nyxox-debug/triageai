@@ -118,8 +118,3 @@ triageai/
 <!-- - [ ] Add confidence scores to predictions -->
 <!-- - [ ] Dashboard for support team metrics -->
 <!---->
----
-
-## License
-
-MIT
